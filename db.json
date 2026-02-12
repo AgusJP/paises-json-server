@@ -1,0 +1,116 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "España",
+      "description": "Destino europeo lleno de cultura, historia y gastronomía.",
+      "image": "https://img.freepik.com/free-photo/spain-landscape.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Italia",
+      "description": "Cuna del Imperio Romano y del arte renacentista.",
+      "image": "https://img.freepik.com/free-photo/italy-landscape.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Francia",
+      "description": "Famosa por su arquitectura y cocina.",
+      "image": "https://img.freepik.com/free-photo/france-landscape.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Japón",
+      "description": "Tradición y tecnología en armonía.",
+      "image": "https://img.freepik.com/free-photo/japan-landscape.jpg"
+    },
+    {
+      "id": 5,
+      "name": "México",
+      "description": "Historia prehispánica y playas paradisíacas.",
+      "image": "https://img.freepik.com/free-photo/mexico-landscape.jpg"
+    }
+  ],
+  "cities": [
+    { "id": 1, "name": "Madrid", "countryId": 1, "description": "Capital de España.", "image": "https://img.freepik.com/free-photo/madrid-city.jpg" },
+    { "id": 2, "name": "Barcelona", "countryId": 1, "description": "Ciudad modernista y costera.", "image": "https://img.freepik.com/free-photo/barcelona-city.jpg" },
+    { "id": 3, "name": "Sevilla", "countryId": 1, "description": "Cuna del flamenco.", "image": "https://img.freepik.com/free-photo/sevilla-city.jpg" },
+
+    { "id": 4, "name": "Roma", "countryId": 2, "description": "La ciudad eterna.", "image": "https://img.freepik.com/free-photo/rome-city.jpg" },
+    { "id": 5, "name": "Venecia", "countryId": 2, "description": "La ciudad de los canales.", "image": "https://img.freepik.com/free-photo/venice-city.jpg" },
+    { "id": 6, "name": "Florencia", "countryId": 2, "description": "Cuna del Renacimiento.", "image": "https://img.freepik.com/free-photo/florence-city.jpg" },
+
+    { "id": 7, "name": "París", "countryId": 3, "description": "La ciudad del amor.", "image": "https://img.freepik.com/free-photo/paris-city.jpg" },
+    { "id": 8, "name": "Lyon", "countryId": 3, "description": "Capital gastronómica.", "image": "https://img.freepik.com/free-photo/lyon-city.jpg" },
+    { "id": 9, "name": "Marsella", "countryId": 3, "description": "Puerto histórico mediterráneo.", "image": "https://img.freepik.com/free-photo/marseille-city.jpg" },
+
+    { "id": 10, "name": "Tokio", "countryId": 4, "description": "Capital moderna japonesa.", "image": "https://img.freepik.com/free-photo/tokyo-city.jpg" },
+    { "id": 11, "name": "Kioto", "countryId": 4, "description": "Templos y tradición.", "image": "https://img.freepik.com/free-photo/kyoto-city.jpg" },
+    { "id": 12, "name": "Osaka", "countryId": 4, "description": "Ciudad vibrante y gastronómica.", "image": "https://img.freepik.com/free-photo/osaka-city.jpg" },
+
+    { "id": 13, "name": "Ciudad de México", "countryId": 5, "description": "Capital cultural.", "image": "https://img.freepik.com/free-photo/mexico-city.jpg" },
+    { "id": 14, "name": "Cancún", "countryId": 5, "description": "Playas caribeñas.", "image": "https://img.freepik.com/free-photo/cancun-city.jpg" },
+    { "id": 15, "name": "Guadalajara", "countryId": 5, "description": "Cuna del mariachi.", "image": "https://img.freepik.com/free-photo/guadalajara-city.jpg" }
+  ],
+  "places": [
+    { "id": 1, "name": "Museo del Prado", "cityId": 1, "description": "Museo de arte histórico.", "type": "monumento", "image": "https://img.freepik.com/free-photo/prado-museum.jpg", "visited": false, "favorite": false },
+    { "id": 2, "name": "Parque del Retiro", "cityId": 1, "description": "Gran parque urbano.", "type": "naturaleza", "image": "https://img.freepik.com/free-photo/retiro-park.jpg", "visited": false, "favorite": false },
+    { "id": 3, "name": "Puerta del Sol", "cityId": 1, "description": "Centro histórico.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/puerta-del-sol.jpg", "visited": false, "favorite": false },
+
+    { "id": 4, "name": "Sagrada Familia", "cityId": 2, "description": "Basílica icónica.", "type": "monumento", "image": "https://img.freepik.com/free-photo/sagrada-familia.jpg", "visited": false, "favorite": false },
+    { "id": 5, "name": "Playa de la Barceloneta", "cityId": 2, "description": "Playa urbana.", "type": "playa", "image": "https://img.freepik.com/free-photo/barceloneta-beach.jpg", "visited": false, "favorite": false },
+    { "id": 6, "name": "Park Güell", "cityId": 2, "description": "Parque modernista.", "type": "naturaleza", "image": "https://img.freepik.com/free-photo/park-guell.jpg", "visited": false, "favorite": false },
+
+    { "id": 7, "name": "Real Alcázar", "cityId": 3, "description": "Palacio real fortificado.", "type": "monumento", "image": "https://img.freepik.com/free-photo/alcazar-seville.jpg", "visited": false, "favorite": false },
+    { "id": 8, "name": "Plaza de España", "cityId": 3, "description": "Conjunto arquitectónico monumental.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/plaza-espana-seville.jpg", "visited": false, "favorite": false },
+    { "id": 9, "name": "La Giralda", "cityId": 3, "description": "Torre campanario de la catedral.", "type": "monumento", "image": "https://img.freepik.com/free-photo/giralda-seville.jpg", "visited": false, "favorite": false },
+
+    { "id": 10, "name": "Coliseo Romano", "cityId": 4, "description": "Anfiteatro de la época del Imperio romano.", "type": "monumento", "image": "https://img.freepik.com/free-photo/colosseum-rome.jpg", "visited": false, "favorite": false },
+    { "id": 11, "name": "Fontana di Trevi", "cityId": 4, "description": "La fuente más ambiciosa de Roma.", "type": "monumento", "image": "https://img.freepik.com/free-photo/trevi-fountain.jpg", "visited": false, "favorite": false },
+    { "id": 12, "name": "Panteón de Agripa", "cityId": 4, "description": "Antiguo templo romano.", "type": "monumento", "image": "https://img.freepik.com/free-photo/pantheon-rome.jpg", "visited": false, "favorite": false },
+
+    { "id": 13, "name": "Plaza de San Marcos", "cityId": 5, "description": "El corazón de Venecia.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/san-marco-venice.jpg", "visited": false, "favorite": false },
+    { "id": 14, "name": "Puente de Rialto", "cityId": 5, "description": "El puente más antiguo sobre el Gran Canal.", "type": "monumento", "image": "https://img.freepik.com/free-photo/rialto-bridge.jpg", "visited": false, "favorite": false },
+    { "id": 15, "name": "Palacio Ducal", "cityId": 5, "description": "Obra maestra del gótico veneciano.", "type": "monumento", "image": "https://img.freepik.com/free-photo/doges-palace.jpg", "visited": false, "favorite": false },
+
+    { "id": 16, "name": "Catedral de Florencia", "cityId": 6, "description": "Santa María del Fiore.", "type": "monumento", "image": "https://img.freepik.com/free-photo/florence-cathedral.jpg", "visited": false, "favorite": false },
+    { "id": 17, "name": "Ponte Vecchio", "cityId": 6, "description": "Puente medieval sobre el río Arno.", "type": "monumento", "image": "https://img.freepik.com/free-photo/ponte-vecchio.jpg", "visited": false, "favorite": false },
+    { "id": 18, "name": "Galería Uffizi", "cityId": 6, "description": "Uno de los museos más antiguos del mundo.", "type": "monumento", "image": "https://img.freepik.com/free-photo/uffizi-gallery.jpg", "visited": false, "favorite": false },
+
+    { "id": 19, "name": "Torre Eiffel", "cityId": 7, "description": "Símbolo de Francia por excelencia.", "type": "monumento", "image": "https://img.freepik.com/free-photo/eiffel-tower.jpg", "visited": false, "favorite": false },
+    { "id": 20, "name": "Museo del Louvre", "cityId": 7, "description": "Museo nacional de Francia.", "type": "monumento", "image": "https://img.freepik.com/free-photo/louvre-museum.jpg", "visited": false, "favorite": false },
+    { "id": 21, "name": "Arco del Triunfo", "cityId": 7, "description": "Monumento histórico en París.", "type": "monumento", "image": "https://img.freepik.com/free-photo/arc-de-triomphe.jpg", "visited": false, "favorite": false },
+
+    { "id": 22, "name": "Basílica de Notre-Dame", "cityId": 8, "description": "Dominando la ciudad desde Fourvière.", "type": "monumento", "image": "https://img.freepik.com/free-photo/notre-dame-lyon.jpg", "visited": false, "favorite": false },
+    { "id": 23, "name": "Vieux Lyon", "cityId": 8, "description": "El barrio medieval y renacentista.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/old-lyon.jpg", "visited": false, "favorite": false },
+    { "id": 24, "name": "Parque de la Tête d'Or", "cityId": 8, "description": "El gran parque urbano de Lyon.", "type": "naturaleza", "image": "https://img.freepik.com/free-photo/tete-d-or-park.jpg", "visited": false, "favorite": false },
+
+    { "id": 25, "name": "Vieux-Port", "cityId": 9, "description": "Puerto histórico de Marsella.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/marseille-old-port.jpg", "visited": false, "favorite": false },
+    { "id": 26, "name": "Notre-Dame de la Garde", "cityId": 9, "description": "Símbolo de la ciudad con vistas al mar.", "type": "monumento", "image": "https://img.freepik.com/free-photo/notre-dame-garde.jpg", "visited": false, "favorite": false },
+    { "id": 27, "name": "Les Calanques", "cityId": 9, "description": "Fiordos mediterráneos de aguas turquesas.", "type": "naturaleza", "image": "https://img.freepik.com/free-photo/calanques-marseille.jpg", "visited": false, "favorite": false },
+
+    { "id": 28, "name": "Torre de Tokio", "cityId": 10, "description": "Inspirada en la Torre Eiffel.", "type": "monumento", "image": "https://img.freepik.com/free-photo/tokyo-tower.jpg", "visited": false, "favorite": false },
+    { "id": 29, "name": "Templo Senso-ji", "cityId": 10, "description": "Templo budista más antiguo de Tokio.", "type": "monumento", "image": "https://img.freepik.com/free-photo/sensoji-temple.jpg", "visited": false, "favorite": false },
+    { "id": 30, "name": "Cruce de Shibuya", "cityId": 10, "description": "El paso de peatones más famoso del mundo.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/shibuya-crossing.jpg", "visited": false, "favorite": false },
+
+    { "id": 31, "name": "Kinkaku-ji", "cityId": 11, "description": "El famoso Pabellón Dorado.", "type": "monumento", "image": "https://img.freepik.com/free-photo/kinkakuji-kyoto.jpg", "visited": false, "favorite": false },
+    { "id": 32, "name": "Fushimi Inari-taisha", "cityId": 11, "description": "Famoso por sus miles de toriis rojos.", "type": "monumento", "image": "https://img.freepik.com/free-photo/fushimi-inari.jpg", "visited": false, "favorite": false },
+    { "id": 33, "name": "Bosque de Bambú", "cityId": 11, "description": "Místico bosque en Arashiyama.", "type": "naturaleza", "image": "https://img.freepik.com/free-photo/bamboo-forest.jpg", "visited": false, "favorite": false },
+
+    { "id": 34, "name": "Castillo de Osaka", "cityId": 12, "description": "Icono de la historia japonesa.", "type": "monumento", "image": "https://img.freepik.com/free-photo/osaka-castle.jpg", "visited": false, "favorite": false },
+    { "id": 35, "name": "Dotonbori", "cityId": 12, "description": "Centro de entretenimiento y comida.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/dotonbori-osaka.jpg", "visited": false, "favorite": false },
+    { "id": 36, "name": "Umeda Sky Building", "cityId": 12, "description": "Arquitectura futurista impresionante.", "type": "monumento", "image": "https://img.freepik.com/free-photo/umeda-sky.jpg", "visited": false, "favorite": false },
+
+    { "id": 37, "name": "Zócalo", "cityId": 13, "description": "La gran plaza central mexicana.", "type": "ciudad", "image": "https://img.freepik.com/free-photo/mexico-zocalo.jpg", "visited": false, "favorite": false },
+    { "id": 38, "name": "Castillo de Chapultepec", "cityId": 13, "description": "Único castillo real en América.", "type": "monumento", "image": "https://img.freepik.com/free-photo/chapultepec-castle.jpg", "visited": false, "favorite": false },
+    { "id": 39, "name": "Basílica de Guadalupe", "cityId": 13, "description": "Principal recinto católico de México.", "type": "monumento", "image": "https://img.freepik.com/free-photo/guadalupe-basilica.jpg", "visited": false, "favorite": false },
+
+    { "id": 40, "name": "Playa Delfines", "cityId": 14, "description": "Vistas espectaculares del Caribe.", "type": "playa", "image": "https://img.freepik.com/free-photo/delfines-beach.jpg", "visited": false, "favorite": false },
+    { "id": 41, "name": "Zona Arqueológica", "cityId": 14, "description": "Ruinas mayas en la costa.", "type": "monumento", "image": "https://img.freepik.com/free-photo/cancun-ruins.jpg", "visited": false, "favorite": false },
+    { "id": 42, "name": "Isla Mujeres", "cityId": 14, "description": "Paraíso tropical cercano a Cancún.", "type": "playa", "image": "https://img.freepik.com/free-photo/isla-mujeres.jpg", "visited": false, "favorite": false },
+
+    { "id": 43, "name": "Catedral de Guadalajara", "cityId": 15, "description": "Símbolo arquitectónico de la ciudad.", "type": "monumento", "image": "https://img.freepik.com/free-photo/guadalajara-cathedral.jpg", "visited": false, "favorite": false },
+    { "id": 44, "name": "Hospicio Cabañas", "cityId": 15, "description": "Patrimonio de la Humanidad.", "type": "monumento", "image": "https://img.freepik.com/free-photo/hospicio-cabanas.jpg", "visited": false, "favorite": false },
+    { "id": 45, "name": "Teatro Degollado", "cityId": 15, "description": "Teatro histórico de gran belleza.", "type": "monumento", "image": "https://img.freepik.com/free-photo/degollado-theater.jpg", "visited": false, "favorite": false }
+  ]
+}
